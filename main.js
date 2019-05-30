@@ -91,7 +91,6 @@ $(document).ready( function() {
     updateTotal();
   });
 
-  // Broken does not updateTotal
   $('#empty').on('click', function() {
     $('#in_cart').empty();
     updateTotal();
